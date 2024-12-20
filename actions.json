@@ -1,0 +1,23 @@
+[
+  {
+    "endpoint": "/api/login",
+    "method": "POST",
+    "data": {
+      "username": "admin",
+      "password": "wrongpassword"
+    }
+  },
+  {
+    "endpoint": "/api/delete-user",
+    "method": "DELETE",
+    "headers": { "Authorization": "Bearer invalid-token" }
+  },
+  {
+    "endpoint": "/api/transfer-funds",
+    "method": "POST",
+    "data": {
+      "amount": "10000",
+      "recipient": "test-user"
+    }
+  }
+]

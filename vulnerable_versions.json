@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Apache",
+    "version": "2.4.49"
+  },
+  {
+    "name": "OpenSSL",
+    "version": "1.1.1k"
+  }
+]
