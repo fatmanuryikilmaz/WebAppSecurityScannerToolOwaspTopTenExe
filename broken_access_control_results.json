@@ -1,7 +1,7 @@
 [
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "GET",
         "headers": {},
         "status_code": 200,
@@ -9,7 +9,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "GET",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -19,7 +19,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "GET",
         "headers": {
             "Cookie": "session=invalid"
@@ -29,7 +29,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "POST",
         "headers": {},
         "status_code": 200,
@@ -37,7 +37,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "POST",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -47,7 +47,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "POST",
         "headers": {
             "Cookie": "session=invalid"
@@ -57,7 +57,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "PUT",
         "headers": {},
         "status_code": 200,
@@ -65,7 +65,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "PUT",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -75,7 +75,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "PUT",
         "headers": {
             "Cookie": "session=invalid"
@@ -85,7 +85,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
+        "url": "http://localhost:3000/#//admin",
         "method": "DELETE",
         "headers": {},
         "status_code": 200,
@@ -93,119 +93,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
-        "method": "DELETE",
-        "headers": {
-            "Authorization": "Bearer invalid-token"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//admin",
-        "method": "DELETE",
-        "headers": {
-            "Cookie": "session=invalid"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "GET",
-        "headers": {},
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "GET",
-        "headers": {
-            "Authorization": "Bearer invalid-token"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "GET",
-        "headers": {
-            "Cookie": "session=invalid"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "POST",
-        "headers": {},
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "POST",
-        "headers": {
-            "Authorization": "Bearer invalid-token"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "POST",
-        "headers": {
-            "Cookie": "session=invalid"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "PUT",
-        "headers": {},
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "PUT",
-        "headers": {
-            "Authorization": "Bearer invalid-token"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "PUT",
-        "headers": {
-            "Cookie": "session=invalid"
-        },
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
-        "method": "DELETE",
-        "headers": {},
-        "status_code": 200,
-        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
-    },
-    {
-        "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
+        "url": "http://localhost:3000/#//admin",
         "method": "DELETE",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -215,7 +103,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//user/settings",
+        "url": "http://localhost:3000/#//admin",
         "method": "DELETE",
         "headers": {
             "Cookie": "session=invalid"
@@ -225,7 +113,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "GET",
         "headers": {},
         "status_code": 200,
@@ -233,7 +121,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "GET",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -243,7 +131,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "GET",
         "headers": {
             "Cookie": "session=invalid"
@@ -253,7 +141,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "POST",
         "headers": {},
         "status_code": 200,
@@ -261,7 +149,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "POST",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -271,7 +159,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "POST",
         "headers": {
             "Cookie": "session=invalid"
@@ -281,7 +169,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "PUT",
         "headers": {},
         "status_code": 200,
@@ -289,7 +177,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "PUT",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -299,7 +187,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "PUT",
         "headers": {
             "Cookie": "session=invalid"
@@ -309,7 +197,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "DELETE",
         "headers": {},
         "status_code": 200,
@@ -317,7 +205,7 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
         "method": "DELETE",
         "headers": {
             "Authorization": "Bearer invalid-token"
@@ -327,7 +215,119 @@
     },
     {
         "type": "Broken Access Control",
-        "url": "https://demo.owasp-juice.shop/#//restricted-area",
+        "url": "http://localhost:3000/#//user/settings",
+        "method": "DELETE",
+        "headers": {
+            "Cookie": "session=invalid"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "GET",
+        "headers": {},
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "GET",
+        "headers": {
+            "Authorization": "Bearer invalid-token"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "GET",
+        "headers": {
+            "Cookie": "session=invalid"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "POST",
+        "headers": {},
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "POST",
+        "headers": {
+            "Authorization": "Bearer invalid-token"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "POST",
+        "headers": {
+            "Cookie": "session=invalid"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "PUT",
+        "headers": {},
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "PUT",
+        "headers": {
+            "Authorization": "Bearer invalid-token"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "PUT",
+        "headers": {
+            "Cookie": "session=invalid"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "DELETE",
+        "headers": {},
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
+        "method": "DELETE",
+        "headers": {
+            "Authorization": "Bearer invalid-token"
+        },
+        "status_code": 200,
+        "response_body": "<!--\n  ~ Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.\n  ~ SPDX-License-Identifier: MIT\n  --><!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>OWA"
+    },
+    {
+        "type": "Broken Access Control",
+        "url": "http://localhost:3000/#//restricted-area",
         "method": "DELETE",
         "headers": {
             "Cookie": "session=invalid"

@@ -1,7 +1,7 @@
 [
     {
         "type": "Insufficient Logging",
-        "url": "https://demo.owasp-juice.shop/#//api/login",
+        "url": "http://localhost:3000/#//api/login",
         "method": "POST",
         "data": {
             "username": "admin",
@@ -14,7 +14,7 @@
     },
     {
         "type": "Insufficient Logging",
-        "url": "https://demo.owasp-juice.shop/#//api/delete-user",
+        "url": "http://localhost:3000/#//api/delete-user",
         "method": "DELETE",
         "data": null,
         "headers": {
@@ -26,7 +26,7 @@
     },
     {
         "type": "Insufficient Logging",
-        "url": "https://demo.owasp-juice.shop/#//api/transfer-funds",
+        "url": "http://localhost:3000/#//api/transfer-funds",
         "method": "POST",
         "data": {
             "amount": "10000",
